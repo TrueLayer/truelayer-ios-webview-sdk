@@ -1,0 +1,4 @@
+framework module TrueLayerWebViewSDK {
+  header "TrueLayerWebViewSDK-Swift.h"
+  requires objc
+}

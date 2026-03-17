@@ -1,0 +1,135 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name TrueLayerWebViewSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+import Foundation
+import Swift
+import SwiftUI
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import tlmessage
+public struct Configuration : Swift.Codable {
+  public let paymentId: Swift.String
+  public let resourceToken: Swift.String
+  public let production: Swift.Bool
+  public let maxWaitForResult: Swift.Int?
+  public let uiSettings: TrueLayerWebViewSDK.Configuration.UISettings?
+  public let hostedResultScreen: TrueLayerWebViewSDK.Configuration.HostedResultScreen?
+  public let additionalSearchParams: TrueLayerWebViewSDK.Configuration.AdditionalSearchParams?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(paymentId: Swift.String, resourceToken: Swift.String, production: Swift.Bool = false, maxWaitForResult: Swift.Int? = nil, uiSettings: TrueLayerWebViewSDK.Configuration.UISettings? = nil, hostedResultScreen: TrueLayerWebViewSDK.Configuration.HostedResultScreen? = nil, additionalSearchParams: TrueLayerWebViewSDK.Configuration.AdditionalSearchParams? = nil)
+  #endif
+  public struct UISettings : Swift.Codable {
+    public let merchantLogoUri: Swift.String?
+    public let language: Swift.String?
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init(merchantLogoUri: Swift.String? = nil, language: Swift.String? = nil)
+    #endif
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct HostedResultScreen : Swift.Codable {
+    public let returnUri: Swift.String
+    public init(returnUri: Swift.String)
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct AdditionalSearchParams : Swift.Codable {
+    public let nativeWrapper: Swift.String?
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init(nativeWrapper: Swift.String? = nil)
+    #endif
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum Result {
+  case success(TrueLayerWebViewSDK.Result.Success)
+  case failure(TrueLayerWebViewSDK.Result.Failure)
+  public struct Success {
+  }
+  public enum Failure {
+    case app(TrueLayerWebViewSDK.Result.Failure.App)
+    case api(TrueLayerWebViewSDK.Result.Failure.Api)
+    public enum DebugMessage : Swift.Equatable, Swift.CustomStringConvertible {
+      case sdkTimeout
+      case navigationFailed(Foundation.NSError)
+      case webMessage(Swift.String?)
+      public var description: Swift.String {
+        get
+      }
+      public static func == (a: TrueLayerWebViewSDK.Result.Failure.DebugMessage, b: TrueLayerWebViewSDK.Result.Failure.DebugMessage) -> Swift.Bool
+    }
+    public struct App {
+      public let debugMessage: TrueLayerWebViewSDK.Result.Failure.DebugMessage
+      public let reason: TrueLayerWebViewSDK.Result.Failure.App.Reason
+      public enum Reason {
+        case noInternet
+        case expired
+        case canceled
+        case invalidParameters
+        case sdkLoadFailed
+        case unknownError
+        case unknown
+        public static func == (a: TrueLayerWebViewSDK.Result.Failure.App.Reason, b: TrueLayerWebViewSDK.Result.Failure.App.Reason) -> Swift.Bool
+        public func hash(into hasher: inout Swift.Hasher)
+        public var hashValue: Swift.Int {
+          get
+        }
+      }
+    }
+    public struct Api {
+      public let debugMessage: TrueLayerWebViewSDK.Result.Failure.DebugMessage
+      public let reason: TrueLayerWebViewSDK.Result.Failure.Api.Reason
+      public enum Reason {
+        case canceled
+        case unknown
+        public static func == (a: TrueLayerWebViewSDK.Result.Failure.Api.Reason, b: TrueLayerWebViewSDK.Result.Failure.Api.Reason) -> Swift.Bool
+        public func hash(into hasher: inout Swift.Hasher)
+        public var hashValue: Swift.Int {
+          get
+        }
+      }
+    }
+  }
+}
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func trueLayerPayment(isPresented: SwiftUICore.Binding<Swift.Bool>, configuration: TrueLayerWebViewSDK.Configuration, onResult: @escaping (TrueLayerWebViewSDK.Result) -> Swift.Void) -> some SwiftUICore.View
+  
+}
+extension TrueLayerWebViewSDK.Configuration : Swift.Identifiable {
+  public var id: Swift.String {
+    get
+  }
+  public typealias ID = Swift.String
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class TLWebViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency final public var onResult: ((TrueLayerWebViewSDK.Result) -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency public init(configuration: TrueLayerWebViewSDK.Configuration)
+  @objc deinit
+  @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidAppear(_ animated: Swift.Bool)
+}
+extension TrueLayerWebViewSDK.TLWebViewController : WebKit.WKNavigationDelegate {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc final public func webView(_ webView: WebKit.WKWebView, didFailProvisionalNavigation navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc final public func webView(_ webView: WebKit.WKWebView, didFail navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc final public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc final public func webView(_ webView: WebKit.WKWebView, didStartProvisionalNavigation navigation: WebKit.WKNavigation!)
+  #endif
+}
+extension TrueLayerWebViewSDK.Result.Failure.App.Reason : Swift.Equatable {}
+extension TrueLayerWebViewSDK.Result.Failure.App.Reason : Swift.Hashable {}
+extension TrueLayerWebViewSDK.Result.Failure.Api.Reason : Swift.Equatable {}
+extension TrueLayerWebViewSDK.Result.Failure.Api.Reason : Swift.Hashable {}

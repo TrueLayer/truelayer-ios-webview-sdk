@@ -1,0 +1,74 @@
+# Changelog
+
+## 0.0.12
+
+Initial release:
+
+- ci(PX-3250): test
+- ci(PX-3250): fix github env variable
+- ci(PX-3250): test
+- ci(PX-3250): fixed pr release script
+- ci(PX-3250): fixed config
+- feat(PX-3250): fixed configuration
+- feat(PX-3250): implemented build xcframework an create pr release jobs
+-  ProcessBuilder → providers.exec {} — this is Gradle's configuration-cache-safe API; Gradle tracks it as a proper build input rather than a raw external process side-effect  Function replaced with run {} — providers is a project property accessible in the script body; putting the logic inline in a run {} block avoids any scope ambiguity that could arise referencing providers inside a standalone function in an applied script
+- Fix GitHub release process
+- refactor(PX-3250): Removed Version and Package.swift generation and CI checks
+- Separate gradle cache per architecture.
+- Make the release tag format "android/1.2.3"
+- Update kmp-check job run criteria
+- Generating release notes for GH release.
+- publish-github-release job — runs in a Go Docker image (same as the reference), installs ghr, and creates a draft release with -draft ${CIRCLE_TAG} pointing at the APK directory. Uses GITHUB_TOKEN from the org-global context. webviewsdk-publish — extended with two new steps at the end: builds app:assembleDebug and persists only android/app/build/outputs/apk/debug to the workspace (minimal footprint), which publish-github-release then attaches.
+- Setting up org-context to access org secrets
+- ci(PX-3250): updated remote binary url
+- setup_version_names — uses ${CIRCLE_TAG#android-} (bash prefix-stripping) at runtime instead of <<pipeline.git.tag>> at compile time, so android-1.2.3 becomes 1.2.3 in PUBLISH_VERSION_NAME Workflow filters — all three publish jobs (hold-publish, kmp-publish, webviewsdk-publish) now match /^android-\d+\.\d+\.\d+$/
+- ci(PX-3250): revert added architecture name to gradle cache key
+- ci(PX-3250): replaced checksum comparison with validation
+- Updated with three new sections:
+- Versioning and publishing explained.
+- Refined versioning
+- Setup a foundation for publishing
+- Added webviewsdk tests:
+- ci(PX-3250): fixed grep on Package.swift checksum constant
+-  kmp-check now persists TLMessage/library/build to the workspace, and kmp-publish attaches it before running — so Gradle sees the existing build outputs and skips recompilation for the publish task.
+- Changing the Gradle cache to be unique for a git commit.
+- ci(PX-3250): Added architecture name to gradle cache key
+- ci(PX-3250): Implemented ios release validation workflow
+- Adding tests
+- feat (PX-3223): Update Gradle version
+- feat (PX-3223): add demo app icon
+- PX-3265 Safe Area drawing when WebView is presented (#21)
+- PX-3264 iOS Handle Safe Area and backdrop (#19)
+- PX-3262 iOS Strip down the Result API to bare minimum (#18)
+- feat(PX-3250): updated agent context
+- feat(PX-3264): Demo App title
+- test(PX-3264): added units on first message callback
+- feat(PX-3264): Implemented backdrop and loading indicator transition
+- feat(PX-3264): Updated View Controller and Configuration to allow correct handling of safe area
+- feat(PX-3250): Added authentication challange bypass in debug to work on simulator
+- feat(PX-3250): Fixed Launcher Screen icon
+- feat(PX-3250): Added Icons to Demo App
+- feat(PX-3250): Updated Demo product name
+- feat(PX-3250): Updated bundle identifiers
+- ci(PX-3250): Updated macos executor
+- feat(PX-3250): Updated ios README
+- feat(PX-3250): Updated agent context
+- PX-3263 [Android] Strip down the API to bare minimum (#17)
+- test(PX-3262): Increased maximum wait time for test result
+- feat(PX-3262): Refactored Result API
+- PX-3126 Android WebView Api Design - Pipeline optimisations (#16)
+- feat(PX-3277): iOS WebView SDK UI integration tests (#15)
+- PX-3260 iOS navigation failure leaves users unable to close the payment view (#14)
+- PX-3257 iOS handle OpenExternal message internally (#10)
+- feat(PX-3259): add ExternalLink reason to OpenExternal TLMessage (#12)
+- feat: CLAUDE.md (#11)
+- PX-3224 iOS CI setup for test and deploy (#8)
+- PX-3242 iOS WebView SDK DemoApp refinement (#9)
+- PX-3126 Android WebView - API design (#4)
+- PX-3126 Android WebView project skeleton (#3)
+- PX-3128 iOS WebView - API Design (#7)
+- PX-3127 iOS WebView project skeleton (#5)
+- PX-3129 KMP TLMessage parser (#2)
+- PX-3125 Setup KMP shared module (#1)
+- Adding README
+
