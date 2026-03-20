@@ -1,0 +1,3440 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TrueLayerWebViewSDK",
+    "printedName": "TrueLayerWebViewSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrueLayerWebViewSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Configuration",
+        "printedName": "Configuration",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "paymentId",
+            "printedName": "paymentId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19TrueLayerWebViewSDK13ConfigurationV9paymentIdSSvp",
+            "mangledName": "$s19TrueLayerWebViewSDK13ConfigurationV9paymentIdSSvp",
+            "moduleName": "TrueLayerWebViewSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19TrueLayerWebViewSDK13ConfigurationV9paymentIdSSvg",
+                "mangledName": "$s19TrueLayerWebViewSDK13ConfigurationV9paymentIdSSvg",
+                "moduleName": "TrueLayerWebViewSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "resourceToken",
+            "printedName": "resourceToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19TrueLayerWebViewSDK13ConfigurationV13resourceTokenSSvp",
+            "mangledName": "$s19TrueLayerWebViewSDK13ConfigurationV13resourceTokenSSvp",
+            "moduleName": "TrueLayerWebViewSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19TrueLayerWebViewSDK13ConfigurationV13resourceTokenSSvg",
+                "mangledName": "$s19TrueLayerWebViewSDK13ConfigurationV13resourceTokenSSvg",
+                "moduleName": "TrueLayerWebViewSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "production",
+            "printedName": "production",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19TrueLayerWebViewSDK13ConfigurationV10productionSbvp",
+            "mangledName": "$s19TrueLayerWebViewSDK13ConfigurationV10productionSbvp",
+            "moduleName": "TrueLayerWebViewSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19TrueLayerWebViewSDK13ConfigurationV10productionSbvg",
+                "mangledName": "$s19TrueLayerWebViewSDK13ConfigurationV10productionSbvg",
+                "moduleName": "TrueLayerWebViewSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxWaitForResult",
+            "printedName": "maxWaitForResult",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19TrueLayerWebViewSDK13ConfigurationV16maxWaitForResultSiSgvp",
+            "mangledName": "$s19TrueLayerWebViewSDK13ConfigurationV16maxWaitForResultSiSgvp",
+            "moduleName": "TrueLayerWebViewSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19TrueLayerWebViewSDK13ConfigurationV16maxWaitForResultSiSgvg",
+                "mangledName": "$s19TrueLayerWebViewSDK13ConfigurationV16maxWaitForResultSiSgvg",
+                "moduleName": "TrueLayerWebViewSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uiSettings",
+            "printedName": "uiSettings",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TrueLayerWebViewSDK.Configuration.UISettings?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UISettings",
+                    "printedName": "TrueLayerWebViewSDK.Configuration.UISettings",
+                    "usr": "s:19TrueLayerWebViewSDK13ConfigurationV10UISettingsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19TrueLayerWebViewSDK13ConfigurationV10uiSettingsAC10UISettingsVSgvp",
+            "mangledName": "$s19TrueLayerWebViewSDK13ConfigurationV10uiSettingsAC10UISettingsVSgvp",
+            "moduleName": "TrueLayerWebViewSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TrueLayerWebViewSDK.Configuration.UISettings?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UISettings",
+                        "printedName": "TrueLayerWebViewSDK.Configuration.UISettings",
+                        "usr": "s:19TrueLayerWebViewSDK13ConfigurationV10UISettingsV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19TrueLayerWebViewSDK13ConfigurationV10uiSettingsAC10UISettingsVSgvg",
+                "mangledName": "$s19TrueLayerWebViewSDK13ConfigurationV10uiSettingsAC10UISettingsVSgvg",
+                "moduleName": "TrueLayerWebViewSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hostedResultScreen",
+            "printedName": "hostedResultScreen",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TrueLayerWebViewSDK.Configuration.HostedResultScreen?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HostedResultScreen",
+                    "printedName": "TrueLayerWebViewSDK.Configuration.HostedResultScreen",
+                    "usr": "s:19TrueLayerWebViewSDK13ConfigurationV18HostedResultScreenV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19TrueLayerWebViewSDK13ConfigurationV18hostedResultScreenAC06HostedhI0VSgvp",
+            "mangledName": "$s19TrueLayerWebViewSDK13ConfigurationV18hostedResultScreenAC06HostedhI0VSgvp",
+            "moduleName": "TrueLayerWebViewSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TrueLayerWebViewSDK.Configuration.HostedResultScreen?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HostedResultScreen",
+                        "printedName": "TrueLayerWebViewSDK.Configuration.HostedResultScreen",
+                        "usr": "s:19TrueLayerWebViewSDK13ConfigurationV18HostedResultScreenV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19TrueLayerWebViewSDK13ConfigurationV18hostedResultScreenAC06HostedhI0VSgvg",
+                "mangledName": "$s19TrueLayerWebViewSDK13ConfigurationV18hostedResultScreenAC06HostedhI0VSgvg",
+                "moduleName": "TrueLayerWebViewSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(paymentId:resourceToken:production:maxWaitForResult:uiSettings:hostedResultScreen:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Configuration",
+                "printedName": "TrueLayerWebViewSDK.Configuration",
+                "usr": "s:19TrueLayerWebViewSDK13ConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TrueLayerWebViewSDK.Configuration.UISettings?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UISettings",
+                    "printedName": "TrueLayerWebViewSDK.Configuration.UISettings",
+                    "usr": "s:19TrueLayerWebViewSDK13ConfigurationV10UISettingsV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TrueLayerWebViewSDK.Configuration.HostedResultScreen?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HostedResultScreen",
+                    "printedName": "TrueLayerWebViewSDK.Configuration.HostedResultScreen",
+                    "usr": "s:19TrueLayerWebViewSDK13ConfigurationV18HostedResultScreenV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19TrueLayerWebViewSDK13ConfigurationV9paymentId13resourceToken10production16maxWaitForResult10uiSettings06hostedO6ScreenACSS_SSSbSiSgAC10UISettingsVSgAC06HostedoS0VSgtcfc",
+            "mangledName": "$s19TrueLayerWebViewSDK13ConfigurationV9paymentId13resourceToken10production16maxWaitForResult10uiSettings06hostedO6ScreenACSS_SSSbSiSgAC10UISettingsVSgAC06HostedoS0VSgtcfc",
+            "moduleName": "TrueLayerWebViewSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "UISettings",
+            "printedName": "UISettings",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "merchantLogoUri",
+                "printedName": "merchantLogoUri",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19TrueLayerWebViewSDK13ConfigurationV10UISettingsV15merchantLogoUriSSSgvp",
+                "mangledName": "$s19TrueLayerWebViewSDK13ConfigurationV10UISettingsV15merchantLogoUriSSSgvp",
+                "moduleName": "TrueLayerWebViewSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19TrueLayerWebViewSDK13ConfigurationV10UISettingsV15merchantLogoUriSSSgvg",
+                    "mangledName": "$s19TrueLayerWebViewSDK13ConfigurationV10UISettingsV15merchantLogoUriSSSgvg",
+                    "moduleName": "TrueLayerWebViewSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "language",
+                "printedName": "language",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19TrueLayerWebViewSDK13ConfigurationV10UISettingsV8languageSSSgvp",
+                "mangledName": "$s19TrueLayerWebViewSDK13ConfigurationV10UISettingsV8languageSSSgvp",
+                "moduleName": "TrueLayerWebViewSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19TrueLayerWebViewSDK13ConfigurationV10UISettingsV8languageSSSgvg",
+                    "mangledName": "$s19TrueLayerWebViewSDK13ConfigurationV10UISettingsV8languageSSSgvg",
+                    "moduleName": "TrueLayerWebViewSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(merchantLogoUri:language:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UISettings",
+                    "printedName": "TrueLayerWebViewSDK.Configuration.UISettings",
+                    "usr": "s:19TrueLayerWebViewSDK13ConfigurationV10UISettingsV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:19TrueLayerWebViewSDK13ConfigurationV10UISettingsV15merchantLogoUri8languageAESSSg_AHtcfc",
+                "mangledName": "$s19TrueLayerWebViewSDK13ConfigurationV10UISettingsV15merchantLogoUri8languageAESSSg_AHtcfc",
+                "moduleName": "TrueLayerWebViewSDK",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UISettings",
+                    "printedName": "TrueLayerWebViewSDK.Configuration.UISettings",
+                    "usr": "s:19TrueLayerWebViewSDK13ConfigurationV10UISettingsV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "any Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:19TrueLayerWebViewSDK13ConfigurationV10UISettingsV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s19TrueLayerWebViewSDK13ConfigurationV10UISettingsV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "TrueLayerWebViewSDK",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(to:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoder",
+                    "printedName": "any Swift.Encoder",
+                    "usr": "s:s7EncoderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:19TrueLayerWebViewSDK13ConfigurationV10UISettingsV6encode2toys7Encoder_p_tKF",
+                "mangledName": "$s19TrueLayerWebViewSDK13ConfigurationV10UISettingsV6encode2toys7Encoder_p_tKF",
+                "moduleName": "TrueLayerWebViewSDK",
+                "implicit": true,
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:19TrueLayerWebViewSDK13ConfigurationV10UISettingsV",
+            "mangledName": "$s19TrueLayerWebViewSDK13ConfigurationV10UISettingsV",
+            "moduleName": "TrueLayerWebViewSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "HostedResultScreen",
+            "printedName": "HostedResultScreen",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "returnUri",
+                "printedName": "returnUri",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19TrueLayerWebViewSDK13ConfigurationV18HostedResultScreenV9returnUriSSvp",
+                "mangledName": "$s19TrueLayerWebViewSDK13ConfigurationV18HostedResultScreenV9returnUriSSvp",
+                "moduleName": "TrueLayerWebViewSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19TrueLayerWebViewSDK13ConfigurationV18HostedResultScreenV9returnUriSSvg",
+                    "mangledName": "$s19TrueLayerWebViewSDK13ConfigurationV18HostedResultScreenV9returnUriSSvg",
+                    "moduleName": "TrueLayerWebViewSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(returnUri:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HostedResultScreen",
+                    "printedName": "TrueLayerWebViewSDK.Configuration.HostedResultScreen",
+                    "usr": "s:19TrueLayerWebViewSDK13ConfigurationV18HostedResultScreenV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:19TrueLayerWebViewSDK13ConfigurationV18HostedResultScreenV9returnUriAESS_tcfc",
+                "mangledName": "$s19TrueLayerWebViewSDK13ConfigurationV18HostedResultScreenV9returnUriAESS_tcfc",
+                "moduleName": "TrueLayerWebViewSDK",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HostedResultScreen",
+                    "printedName": "TrueLayerWebViewSDK.Configuration.HostedResultScreen",
+                    "usr": "s:19TrueLayerWebViewSDK13ConfigurationV18HostedResultScreenV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "any Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:19TrueLayerWebViewSDK13ConfigurationV18HostedResultScreenV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s19TrueLayerWebViewSDK13ConfigurationV18HostedResultScreenV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "TrueLayerWebViewSDK",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(to:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoder",
+                    "printedName": "any Swift.Encoder",
+                    "usr": "s:s7EncoderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:19TrueLayerWebViewSDK13ConfigurationV18HostedResultScreenV6encode2toys7Encoder_p_tKF",
+                "mangledName": "$s19TrueLayerWebViewSDK13ConfigurationV18HostedResultScreenV6encode2toys7Encoder_p_tKF",
+                "moduleName": "TrueLayerWebViewSDK",
+                "implicit": true,
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:19TrueLayerWebViewSDK13ConfigurationV18HostedResultScreenV",
+            "mangledName": "$s19TrueLayerWebViewSDK13ConfigurationV18HostedResultScreenV",
+            "moduleName": "TrueLayerWebViewSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19TrueLayerWebViewSDK13ConfigurationV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s19TrueLayerWebViewSDK13ConfigurationV6encode2toys7Encoder_p_tKF",
+            "moduleName": "TrueLayerWebViewSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19TrueLayerWebViewSDK13ConfigurationV2idSSvp",
+            "mangledName": "$s19TrueLayerWebViewSDK13ConfigurationV2idSSvp",
+            "moduleName": "TrueLayerWebViewSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19TrueLayerWebViewSDK13ConfigurationV2idSSvg",
+                "mangledName": "$s19TrueLayerWebViewSDK13ConfigurationV2idSSvg",
+                "moduleName": "TrueLayerWebViewSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:19TrueLayerWebViewSDK13ConfigurationV",
+        "mangledName": "$s19TrueLayerWebViewSDK13ConfigurationV",
+        "moduleName": "TrueLayerWebViewSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrueLayerWebViewSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Result",
+        "printedName": "Result",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrueLayerWebViewSDK.Result.Type) -> (TrueLayerWebViewSDK.Result.Success) -> TrueLayerWebViewSDK.Result",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TrueLayerWebViewSDK.Result.Success) -> TrueLayerWebViewSDK.Result",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "TrueLayerWebViewSDK.Result",
+                        "usr": "s:19TrueLayerWebViewSDK6ResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Success",
+                        "printedName": "TrueLayerWebViewSDK.Result.Success",
+                        "usr": "s:19TrueLayerWebViewSDK6ResultO7SuccessV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TrueLayerWebViewSDK.Result.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "TrueLayerWebViewSDK.Result",
+                        "usr": "s:19TrueLayerWebViewSDK6ResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19TrueLayerWebViewSDK6ResultO7successyA2C7SuccessVcACmF",
+            "mangledName": "$s19TrueLayerWebViewSDK6ResultO7successyA2C7SuccessVcACmF",
+            "moduleName": "TrueLayerWebViewSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "failure",
+            "printedName": "failure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrueLayerWebViewSDK.Result.Type) -> (TrueLayerWebViewSDK.Result.Failure) -> TrueLayerWebViewSDK.Result",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TrueLayerWebViewSDK.Result.Failure) -> TrueLayerWebViewSDK.Result",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "TrueLayerWebViewSDK.Result",
+                        "usr": "s:19TrueLayerWebViewSDK6ResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Failure",
+                        "printedName": "TrueLayerWebViewSDK.Result.Failure",
+                        "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TrueLayerWebViewSDK.Result.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "TrueLayerWebViewSDK.Result",
+                        "usr": "s:19TrueLayerWebViewSDK6ResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19TrueLayerWebViewSDK6ResultO7failureyA2C7FailureOcACmF",
+            "mangledName": "$s19TrueLayerWebViewSDK6ResultO7failureyA2C7FailureOcACmF",
+            "moduleName": "TrueLayerWebViewSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Success",
+            "printedName": "Success",
+            "declKind": "Struct",
+            "usr": "s:19TrueLayerWebViewSDK6ResultO7SuccessV",
+            "mangledName": "$s19TrueLayerWebViewSDK6ResultO7SuccessV",
+            "moduleName": "TrueLayerWebViewSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Failure",
+            "printedName": "Failure",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "app",
+                "printedName": "app",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TrueLayerWebViewSDK.Result.Failure.Type) -> (TrueLayerWebViewSDK.Result.Failure.App) -> TrueLayerWebViewSDK.Result.Failure",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(TrueLayerWebViewSDK.Result.Failure.App) -> TrueLayerWebViewSDK.Result.Failure",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Failure",
+                            "printedName": "TrueLayerWebViewSDK.Result.Failure",
+                            "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "App",
+                            "printedName": "TrueLayerWebViewSDK.Result.Failure.App",
+                            "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3AppV"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TrueLayerWebViewSDK.Result.Failure.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Failure",
+                            "printedName": "TrueLayerWebViewSDK.Result.Failure",
+                            "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3appyA2E3AppVcAEmF",
+                "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO3appyA2E3AppVcAEmF",
+                "moduleName": "TrueLayerWebViewSDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "api",
+                "printedName": "api",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TrueLayerWebViewSDK.Result.Failure.Type) -> (TrueLayerWebViewSDK.Result.Failure.Api) -> TrueLayerWebViewSDK.Result.Failure",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(TrueLayerWebViewSDK.Result.Failure.Api) -> TrueLayerWebViewSDK.Result.Failure",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Failure",
+                            "printedName": "TrueLayerWebViewSDK.Result.Failure",
+                            "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Api",
+                            "printedName": "TrueLayerWebViewSDK.Result.Failure.Api",
+                            "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3ApiV"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TrueLayerWebViewSDK.Result.Failure.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Failure",
+                            "printedName": "TrueLayerWebViewSDK.Result.Failure",
+                            "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3apiyA2E3ApiVcAEmF",
+                "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO3apiyA2E3ApiVcAEmF",
+                "moduleName": "TrueLayerWebViewSDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "TypeDecl",
+                "name": "DebugMessage",
+                "printedName": "DebugMessage",
+                "children": [
+                  {
+                    "kind": "Var",
+                    "name": "sdkTimeout",
+                    "printedName": "sdkTimeout",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(TrueLayerWebViewSDK.Result.Failure.DebugMessage.Type) -> TrueLayerWebViewSDK.Result.Failure.DebugMessage",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DebugMessage",
+                            "printedName": "TrueLayerWebViewSDK.Result.Failure.DebugMessage",
+                            "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO12DebugMessageO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "TrueLayerWebViewSDK.Result.Failure.DebugMessage.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "DebugMessage",
+                                "printedName": "TrueLayerWebViewSDK.Result.Failure.DebugMessage",
+                                "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO12DebugMessageO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO12DebugMessageO10sdkTimeoutyA2GmF",
+                    "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO12DebugMessageO10sdkTimeoutyA2GmF",
+                    "moduleName": "TrueLayerWebViewSDK",
+                    "declAttributes": [
+                      "RawDocComment"
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "navigationFailed",
+                    "printedName": "navigationFailed",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(TrueLayerWebViewSDK.Result.Failure.DebugMessage.Type) -> (Foundation.NSError) -> TrueLayerWebViewSDK.Result.Failure.DebugMessage",
+                        "children": [
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "(Foundation.NSError) -> TrueLayerWebViewSDK.Result.Failure.DebugMessage",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "DebugMessage",
+                                "printedName": "TrueLayerWebViewSDK.Result.Failure.DebugMessage",
+                                "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO12DebugMessageO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "NSError",
+                                "printedName": "Foundation.NSError",
+                                "usr": "c:objc(cs)NSError"
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "TrueLayerWebViewSDK.Result.Failure.DebugMessage.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "DebugMessage",
+                                "printedName": "TrueLayerWebViewSDK.Result.Failure.DebugMessage",
+                                "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO12DebugMessageO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO12DebugMessageO16navigationFailedyAGSo7NSErrorCcAGmF",
+                    "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO12DebugMessageO16navigationFailedyAGSo7NSErrorCcAGmF",
+                    "moduleName": "TrueLayerWebViewSDK",
+                    "declAttributes": [
+                      "RawDocComment"
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "webMessage",
+                    "printedName": "webMessage",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(TrueLayerWebViewSDK.Result.Failure.DebugMessage.Type) -> (Swift.String?) -> TrueLayerWebViewSDK.Result.Failure.DebugMessage",
+                        "children": [
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "(Swift.String?) -> TrueLayerWebViewSDK.Result.Failure.DebugMessage",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "DebugMessage",
+                                "printedName": "TrueLayerWebViewSDK.Result.Failure.DebugMessage",
+                                "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO12DebugMessageO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Swift.String?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "String",
+                                    "printedName": "Swift.String",
+                                    "usr": "s:SS"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "TrueLayerWebViewSDK.Result.Failure.DebugMessage.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "DebugMessage",
+                                "printedName": "TrueLayerWebViewSDK.Result.Failure.DebugMessage",
+                                "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO12DebugMessageO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO12DebugMessageO03webI0yAGSSSgcAGmF",
+                    "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO12DebugMessageO03webI0yAGSSSgcAGmF",
+                    "moduleName": "TrueLayerWebViewSDK",
+                    "declAttributes": [
+                      "RawDocComment"
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "description",
+                    "printedName": "description",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO12DebugMessageO11descriptionSSvp",
+                    "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO12DebugMessageO11descriptionSSvp",
+                    "moduleName": "TrueLayerWebViewSDK",
+                    "declAttributes": [
+                      "AccessControl"
+                    ],
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO12DebugMessageO11descriptionSSvg",
+                        "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO12DebugMessageO11descriptionSSvg",
+                        "moduleName": "TrueLayerWebViewSDK",
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "==",
+                    "printedName": "==(_:_:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DebugMessage",
+                        "printedName": "TrueLayerWebViewSDK.Result.Failure.DebugMessage",
+                        "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO12DebugMessageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DebugMessage",
+                        "printedName": "TrueLayerWebViewSDK.Result.Failure.DebugMessage",
+                        "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO12DebugMessageO"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO12DebugMessageO2eeoiySbAG_AGtFZ",
+                    "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO12DebugMessageO2eeoiySbAG_AGtFZ",
+                    "moduleName": "TrueLayerWebViewSDK",
+                    "static": true,
+                    "implicit": true,
+                    "funcSelfKind": "NonMutating"
+                  }
+                ],
+                "declKind": "Enum",
+                "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO12DebugMessageO",
+                "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO12DebugMessageO",
+                "moduleName": "TrueLayerWebViewSDK",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Equatable",
+                    "printedName": "Equatable",
+                    "usr": "s:SQ",
+                    "mangledName": "$sSQ"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "CustomStringConvertible",
+                    "printedName": "CustomStringConvertible",
+                    "usr": "s:s23CustomStringConvertibleP",
+                    "mangledName": "$ss23CustomStringConvertibleP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeDecl",
+                "name": "App",
+                "printedName": "App",
+                "children": [
+                  {
+                    "kind": "Var",
+                    "name": "debugMessage",
+                    "printedName": "debugMessage",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DebugMessage",
+                        "printedName": "TrueLayerWebViewSDK.Result.Failure.DebugMessage",
+                        "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO12DebugMessageO"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3AppV12debugMessageAE05DebugJ0Ovp",
+                    "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO3AppV12debugMessageAE05DebugJ0Ovp",
+                    "moduleName": "TrueLayerWebViewSDK",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "isLet": true,
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DebugMessage",
+                            "printedName": "TrueLayerWebViewSDK.Result.Failure.DebugMessage",
+                            "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO12DebugMessageO"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3AppV12debugMessageAE05DebugJ0Ovg",
+                        "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO3AppV12debugMessageAE05DebugJ0Ovg",
+                        "moduleName": "TrueLayerWebViewSDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "reason",
+                    "printedName": "reason",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Reason",
+                        "printedName": "TrueLayerWebViewSDK.Result.Failure.App.Reason",
+                        "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3AppV6reasonAG6ReasonOvp",
+                    "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO3AppV6reasonAG6ReasonOvp",
+                    "moduleName": "TrueLayerWebViewSDK",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "isLet": true,
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Reason",
+                            "printedName": "TrueLayerWebViewSDK.Result.Failure.App.Reason",
+                            "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3AppV6reasonAG6ReasonOvg",
+                        "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO3AppV6reasonAG6ReasonOvg",
+                        "moduleName": "TrueLayerWebViewSDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeDecl",
+                    "name": "Reason",
+                    "printedName": "Reason",
+                    "children": [
+                      {
+                        "kind": "Var",
+                        "name": "noInternet",
+                        "printedName": "noInternet",
+                        "children": [
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "(TrueLayerWebViewSDK.Result.Failure.App.Reason.Type) -> TrueLayerWebViewSDK.Result.Failure.App.Reason",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Reason",
+                                "printedName": "TrueLayerWebViewSDK.Result.Failure.App.Reason",
+                                "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Metatype",
+                                "printedName": "TrueLayerWebViewSDK.Result.Failure.App.Reason.Type",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Reason",
+                                    "printedName": "TrueLayerWebViewSDK.Result.Failure.App.Reason",
+                                    "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "declKind": "EnumElement",
+                        "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO10noInternetyA2ImF",
+                        "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO10noInternetyA2ImF",
+                        "moduleName": "TrueLayerWebViewSDK",
+                        "declAttributes": [
+                          "RawDocComment"
+                        ]
+                      },
+                      {
+                        "kind": "Var",
+                        "name": "expired",
+                        "printedName": "expired",
+                        "children": [
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "(TrueLayerWebViewSDK.Result.Failure.App.Reason.Type) -> TrueLayerWebViewSDK.Result.Failure.App.Reason",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Reason",
+                                "printedName": "TrueLayerWebViewSDK.Result.Failure.App.Reason",
+                                "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Metatype",
+                                "printedName": "TrueLayerWebViewSDK.Result.Failure.App.Reason.Type",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Reason",
+                                    "printedName": "TrueLayerWebViewSDK.Result.Failure.App.Reason",
+                                    "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "declKind": "EnumElement",
+                        "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO7expiredyA2ImF",
+                        "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO7expiredyA2ImF",
+                        "moduleName": "TrueLayerWebViewSDK",
+                        "declAttributes": [
+                          "RawDocComment"
+                        ]
+                      },
+                      {
+                        "kind": "Var",
+                        "name": "canceled",
+                        "printedName": "canceled",
+                        "children": [
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "(TrueLayerWebViewSDK.Result.Failure.App.Reason.Type) -> TrueLayerWebViewSDK.Result.Failure.App.Reason",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Reason",
+                                "printedName": "TrueLayerWebViewSDK.Result.Failure.App.Reason",
+                                "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Metatype",
+                                "printedName": "TrueLayerWebViewSDK.Result.Failure.App.Reason.Type",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Reason",
+                                    "printedName": "TrueLayerWebViewSDK.Result.Failure.App.Reason",
+                                    "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "declKind": "EnumElement",
+                        "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO8canceledyA2ImF",
+                        "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO8canceledyA2ImF",
+                        "moduleName": "TrueLayerWebViewSDK",
+                        "declAttributes": [
+                          "RawDocComment"
+                        ]
+                      },
+                      {
+                        "kind": "Var",
+                        "name": "invalidParameters",
+                        "printedName": "invalidParameters",
+                        "children": [
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "(TrueLayerWebViewSDK.Result.Failure.App.Reason.Type) -> TrueLayerWebViewSDK.Result.Failure.App.Reason",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Reason",
+                                "printedName": "TrueLayerWebViewSDK.Result.Failure.App.Reason",
+                                "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Metatype",
+                                "printedName": "TrueLayerWebViewSDK.Result.Failure.App.Reason.Type",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Reason",
+                                    "printedName": "TrueLayerWebViewSDK.Result.Failure.App.Reason",
+                                    "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "declKind": "EnumElement",
+                        "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO17invalidParametersyA2ImF",
+                        "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO17invalidParametersyA2ImF",
+                        "moduleName": "TrueLayerWebViewSDK",
+                        "declAttributes": [
+                          "RawDocComment"
+                        ]
+                      },
+                      {
+                        "kind": "Var",
+                        "name": "sdkLoadFailed",
+                        "printedName": "sdkLoadFailed",
+                        "children": [
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "(TrueLayerWebViewSDK.Result.Failure.App.Reason.Type) -> TrueLayerWebViewSDK.Result.Failure.App.Reason",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Reason",
+                                "printedName": "TrueLayerWebViewSDK.Result.Failure.App.Reason",
+                                "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Metatype",
+                                "printedName": "TrueLayerWebViewSDK.Result.Failure.App.Reason.Type",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Reason",
+                                    "printedName": "TrueLayerWebViewSDK.Result.Failure.App.Reason",
+                                    "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "declKind": "EnumElement",
+                        "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO13sdkLoadFailedyA2ImF",
+                        "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO13sdkLoadFailedyA2ImF",
+                        "moduleName": "TrueLayerWebViewSDK",
+                        "declAttributes": [
+                          "RawDocComment"
+                        ]
+                      },
+                      {
+                        "kind": "Var",
+                        "name": "unknownError",
+                        "printedName": "unknownError",
+                        "children": [
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "(TrueLayerWebViewSDK.Result.Failure.App.Reason.Type) -> TrueLayerWebViewSDK.Result.Failure.App.Reason",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Reason",
+                                "printedName": "TrueLayerWebViewSDK.Result.Failure.App.Reason",
+                                "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Metatype",
+                                "printedName": "TrueLayerWebViewSDK.Result.Failure.App.Reason.Type",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Reason",
+                                    "printedName": "TrueLayerWebViewSDK.Result.Failure.App.Reason",
+                                    "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "declKind": "EnumElement",
+                        "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO12unknownErroryA2ImF",
+                        "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO12unknownErroryA2ImF",
+                        "moduleName": "TrueLayerWebViewSDK",
+                        "declAttributes": [
+                          "RawDocComment"
+                        ]
+                      },
+                      {
+                        "kind": "Var",
+                        "name": "unknown",
+                        "printedName": "unknown",
+                        "children": [
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "(TrueLayerWebViewSDK.Result.Failure.App.Reason.Type) -> TrueLayerWebViewSDK.Result.Failure.App.Reason",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Reason",
+                                "printedName": "TrueLayerWebViewSDK.Result.Failure.App.Reason",
+                                "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Metatype",
+                                "printedName": "TrueLayerWebViewSDK.Result.Failure.App.Reason.Type",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Reason",
+                                    "printedName": "TrueLayerWebViewSDK.Result.Failure.App.Reason",
+                                    "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "declKind": "EnumElement",
+                        "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO7unknownyA2ImF",
+                        "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO7unknownyA2ImF",
+                        "moduleName": "TrueLayerWebViewSDK",
+                        "declAttributes": [
+                          "RawDocComment"
+                        ]
+                      },
+                      {
+                        "kind": "Function",
+                        "name": "==",
+                        "printedName": "==(_:_:)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Reason",
+                            "printedName": "TrueLayerWebViewSDK.Result.Failure.App.Reason",
+                            "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Reason",
+                            "printedName": "TrueLayerWebViewSDK.Result.Failure.App.Reason",
+                            "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO"
+                          }
+                        ],
+                        "declKind": "Func",
+                        "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO2eeoiySbAI_AItFZ",
+                        "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO2eeoiySbAI_AItFZ",
+                        "moduleName": "TrueLayerWebViewSDK",
+                        "static": true,
+                        "implicit": true,
+                        "funcSelfKind": "NonMutating"
+                      },
+                      {
+                        "kind": "Var",
+                        "name": "hashValue",
+                        "printedName": "hashValue",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "declKind": "Var",
+                        "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO9hashValueSivp",
+                        "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO9hashValueSivp",
+                        "moduleName": "TrueLayerWebViewSDK",
+                        "implicit": true,
+                        "accessors": [
+                          {
+                            "kind": "Accessor",
+                            "name": "Get",
+                            "printedName": "Get()",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Int",
+                                "printedName": "Swift.Int",
+                                "usr": "s:Si"
+                              }
+                            ],
+                            "declKind": "Accessor",
+                            "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO9hashValueSivg",
+                            "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO9hashValueSivg",
+                            "moduleName": "TrueLayerWebViewSDK",
+                            "implicit": true,
+                            "accessorKind": "get"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "Function",
+                        "name": "hash",
+                        "printedName": "hash(into:)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Hasher",
+                            "printedName": "Swift.Hasher",
+                            "paramValueOwnership": "InOut",
+                            "usr": "s:s6HasherV"
+                          }
+                        ],
+                        "declKind": "Func",
+                        "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO4hash4intoys6HasherVz_tF",
+                        "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO4hash4intoys6HasherVz_tF",
+                        "moduleName": "TrueLayerWebViewSDK",
+                        "implicit": true,
+                        "funcSelfKind": "NonMutating"
+                      }
+                    ],
+                    "declKind": "Enum",
+                    "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO",
+                    "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO3AppV6ReasonO",
+                    "moduleName": "TrueLayerWebViewSDK",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "conformances": [
+                      {
+                        "kind": "Conformance",
+                        "name": "Copyable",
+                        "printedName": "Copyable",
+                        "usr": "s:s8CopyableP",
+                        "mangledName": "$ss8CopyableP"
+                      },
+                      {
+                        "kind": "Conformance",
+                        "name": "Escapable",
+                        "printedName": "Escapable",
+                        "usr": "s:s9EscapableP",
+                        "mangledName": "$ss9EscapableP"
+                      },
+                      {
+                        "kind": "Conformance",
+                        "name": "Equatable",
+                        "printedName": "Equatable",
+                        "usr": "s:SQ",
+                        "mangledName": "$sSQ"
+                      },
+                      {
+                        "kind": "Conformance",
+                        "name": "Hashable",
+                        "printedName": "Hashable",
+                        "usr": "s:SH",
+                        "mangledName": "$sSH"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Struct",
+                "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3AppV",
+                "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO3AppV",
+                "moduleName": "TrueLayerWebViewSDK",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeDecl",
+                "name": "Api",
+                "printedName": "Api",
+                "children": [
+                  {
+                    "kind": "Var",
+                    "name": "debugMessage",
+                    "printedName": "debugMessage",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DebugMessage",
+                        "printedName": "TrueLayerWebViewSDK.Result.Failure.DebugMessage",
+                        "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO12DebugMessageO"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3ApiV12debugMessageAE05DebugJ0Ovp",
+                    "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO3ApiV12debugMessageAE05DebugJ0Ovp",
+                    "moduleName": "TrueLayerWebViewSDK",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "isLet": true,
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DebugMessage",
+                            "printedName": "TrueLayerWebViewSDK.Result.Failure.DebugMessage",
+                            "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO12DebugMessageO"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3ApiV12debugMessageAE05DebugJ0Ovg",
+                        "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO3ApiV12debugMessageAE05DebugJ0Ovg",
+                        "moduleName": "TrueLayerWebViewSDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "reason",
+                    "printedName": "reason",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Reason",
+                        "printedName": "TrueLayerWebViewSDK.Result.Failure.Api.Reason",
+                        "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3ApiV6ReasonO"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3ApiV6reasonAG6ReasonOvp",
+                    "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO3ApiV6reasonAG6ReasonOvp",
+                    "moduleName": "TrueLayerWebViewSDK",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "isLet": true,
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Reason",
+                            "printedName": "TrueLayerWebViewSDK.Result.Failure.Api.Reason",
+                            "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3ApiV6ReasonO"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3ApiV6reasonAG6ReasonOvg",
+                        "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO3ApiV6reasonAG6ReasonOvg",
+                        "moduleName": "TrueLayerWebViewSDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeDecl",
+                    "name": "Reason",
+                    "printedName": "Reason",
+                    "children": [
+                      {
+                        "kind": "Var",
+                        "name": "canceled",
+                        "printedName": "canceled",
+                        "children": [
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "(TrueLayerWebViewSDK.Result.Failure.Api.Reason.Type) -> TrueLayerWebViewSDK.Result.Failure.Api.Reason",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Reason",
+                                "printedName": "TrueLayerWebViewSDK.Result.Failure.Api.Reason",
+                                "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3ApiV6ReasonO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Metatype",
+                                "printedName": "TrueLayerWebViewSDK.Result.Failure.Api.Reason.Type",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Reason",
+                                    "printedName": "TrueLayerWebViewSDK.Result.Failure.Api.Reason",
+                                    "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3ApiV6ReasonO"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "declKind": "EnumElement",
+                        "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3ApiV6ReasonO8canceledyA2ImF",
+                        "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO3ApiV6ReasonO8canceledyA2ImF",
+                        "moduleName": "TrueLayerWebViewSDK",
+                        "declAttributes": [
+                          "RawDocComment"
+                        ]
+                      },
+                      {
+                        "kind": "Var",
+                        "name": "unknown",
+                        "printedName": "unknown",
+                        "children": [
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "(TrueLayerWebViewSDK.Result.Failure.Api.Reason.Type) -> TrueLayerWebViewSDK.Result.Failure.Api.Reason",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Reason",
+                                "printedName": "TrueLayerWebViewSDK.Result.Failure.Api.Reason",
+                                "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3ApiV6ReasonO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Metatype",
+                                "printedName": "TrueLayerWebViewSDK.Result.Failure.Api.Reason.Type",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Reason",
+                                    "printedName": "TrueLayerWebViewSDK.Result.Failure.Api.Reason",
+                                    "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3ApiV6ReasonO"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "declKind": "EnumElement",
+                        "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3ApiV6ReasonO7unknownyA2ImF",
+                        "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO3ApiV6ReasonO7unknownyA2ImF",
+                        "moduleName": "TrueLayerWebViewSDK",
+                        "declAttributes": [
+                          "RawDocComment"
+                        ]
+                      },
+                      {
+                        "kind": "Function",
+                        "name": "==",
+                        "printedName": "==(_:_:)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Reason",
+                            "printedName": "TrueLayerWebViewSDK.Result.Failure.Api.Reason",
+                            "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3ApiV6ReasonO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Reason",
+                            "printedName": "TrueLayerWebViewSDK.Result.Failure.Api.Reason",
+                            "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3ApiV6ReasonO"
+                          }
+                        ],
+                        "declKind": "Func",
+                        "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3ApiV6ReasonO2eeoiySbAI_AItFZ",
+                        "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO3ApiV6ReasonO2eeoiySbAI_AItFZ",
+                        "moduleName": "TrueLayerWebViewSDK",
+                        "static": true,
+                        "implicit": true,
+                        "funcSelfKind": "NonMutating"
+                      },
+                      {
+                        "kind": "Var",
+                        "name": "hashValue",
+                        "printedName": "hashValue",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "declKind": "Var",
+                        "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3ApiV6ReasonO9hashValueSivp",
+                        "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO3ApiV6ReasonO9hashValueSivp",
+                        "moduleName": "TrueLayerWebViewSDK",
+                        "implicit": true,
+                        "accessors": [
+                          {
+                            "kind": "Accessor",
+                            "name": "Get",
+                            "printedName": "Get()",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Int",
+                                "printedName": "Swift.Int",
+                                "usr": "s:Si"
+                              }
+                            ],
+                            "declKind": "Accessor",
+                            "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3ApiV6ReasonO9hashValueSivg",
+                            "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO3ApiV6ReasonO9hashValueSivg",
+                            "moduleName": "TrueLayerWebViewSDK",
+                            "implicit": true,
+                            "accessorKind": "get"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "Function",
+                        "name": "hash",
+                        "printedName": "hash(into:)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Hasher",
+                            "printedName": "Swift.Hasher",
+                            "paramValueOwnership": "InOut",
+                            "usr": "s:s6HasherV"
+                          }
+                        ],
+                        "declKind": "Func",
+                        "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3ApiV6ReasonO4hash4intoys6HasherVz_tF",
+                        "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO3ApiV6ReasonO4hash4intoys6HasherVz_tF",
+                        "moduleName": "TrueLayerWebViewSDK",
+                        "implicit": true,
+                        "funcSelfKind": "NonMutating"
+                      }
+                    ],
+                    "declKind": "Enum",
+                    "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3ApiV6ReasonO",
+                    "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO3ApiV6ReasonO",
+                    "moduleName": "TrueLayerWebViewSDK",
+                    "declAttributes": [
+                      "AccessControl",
+                      "RawDocComment"
+                    ],
+                    "conformances": [
+                      {
+                        "kind": "Conformance",
+                        "name": "Copyable",
+                        "printedName": "Copyable",
+                        "usr": "s:s8CopyableP",
+                        "mangledName": "$ss8CopyableP"
+                      },
+                      {
+                        "kind": "Conformance",
+                        "name": "Escapable",
+                        "printedName": "Escapable",
+                        "usr": "s:s9EscapableP",
+                        "mangledName": "$ss9EscapableP"
+                      },
+                      {
+                        "kind": "Conformance",
+                        "name": "Equatable",
+                        "printedName": "Equatable",
+                        "usr": "s:SQ",
+                        "mangledName": "$sSQ"
+                      },
+                      {
+                        "kind": "Conformance",
+                        "name": "Hashable",
+                        "printedName": "Hashable",
+                        "usr": "s:SH",
+                        "mangledName": "$sSH"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Struct",
+                "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO3ApiV",
+                "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO3ApiV",
+                "moduleName": "TrueLayerWebViewSDK",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:19TrueLayerWebViewSDK6ResultO7FailureO",
+            "mangledName": "$s19TrueLayerWebViewSDK6ResultO7FailureO",
+            "moduleName": "TrueLayerWebViewSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19TrueLayerWebViewSDK6ResultO",
+        "mangledName": "$s19TrueLayerWebViewSDK6ResultO",
+        "moduleName": "TrueLayerWebViewSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TrueLayerWebViewSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "tlmessage",
+        "printedName": "tlmessage",
+        "declKind": "Import",
+        "moduleName": "TrueLayerWebViewSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TrueLayerWebViewSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "TrueLayerWebViewSDK",
+        "declAttributes": [
+          "Preconcurrency"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TLWebViewController",
+        "printedName": "TLWebViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "onResult",
+            "printedName": "onResult",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((TrueLayerWebViewSDK.Result) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TrueLayerWebViewSDK.Result) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "TrueLayerWebViewSDK.Result",
+                        "usr": "s:19TrueLayerWebViewSDK6ResultO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19TrueLayerWebViewSDK05TLWebD10ControllerC8onResultyAA0I0OcSgvp",
+            "mangledName": "$s19TrueLayerWebViewSDK05TLWebD10ControllerC8onResultyAA0I0OcSgvp",
+            "moduleName": "TrueLayerWebViewSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((TrueLayerWebViewSDK.Result) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(TrueLayerWebViewSDK.Result) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Result",
+                            "printedName": "TrueLayerWebViewSDK.Result",
+                            "usr": "s:19TrueLayerWebViewSDK6ResultO"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19TrueLayerWebViewSDK05TLWebD10ControllerC8onResultyAA0I0OcSgvg",
+                "mangledName": "$s19TrueLayerWebViewSDK05TLWebD10ControllerC8onResultyAA0I0OcSgvg",
+                "moduleName": "TrueLayerWebViewSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((TrueLayerWebViewSDK.Result) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(TrueLayerWebViewSDK.Result) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Result",
+                            "printedName": "TrueLayerWebViewSDK.Result",
+                            "usr": "s:19TrueLayerWebViewSDK6ResultO"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19TrueLayerWebViewSDK05TLWebD10ControllerC8onResultyAA0I0OcSgvs",
+                "mangledName": "$s19TrueLayerWebViewSDK05TLWebD10ControllerC8onResultyAA0I0OcSgvs",
+                "moduleName": "TrueLayerWebViewSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19TrueLayerWebViewSDK05TLWebD10ControllerC8onResultyAA0I0OcSgvM",
+                "mangledName": "$s19TrueLayerWebViewSDK05TLWebD10ControllerC8onResultyAA0I0OcSgvM",
+                "moduleName": "TrueLayerWebViewSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(configuration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TLWebViewController",
+                "printedName": "TrueLayerWebViewSDK.TLWebViewController",
+                "usr": "c:@M@TrueLayerWebViewSDK@objc(cs)TLWebViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Configuration",
+                "printedName": "TrueLayerWebViewSDK.Configuration",
+                "usr": "s:19TrueLayerWebViewSDK13ConfigurationV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19TrueLayerWebViewSDK05TLWebD10ControllerC13configurationAcA13ConfigurationV_tcfc",
+            "mangledName": "$s19TrueLayerWebViewSDK05TLWebD10ControllerC13configurationAcA13ConfigurationV_tcfc",
+            "moduleName": "TrueLayerWebViewSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TrueLayerWebViewSDK@objc(cs)TLWebViewController(im)viewDidLoad",
+            "mangledName": "$s19TrueLayerWebViewSDK05TLWebD10ControllerC11viewDidLoadyyF",
+            "moduleName": "TrueLayerWebViewSDK",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidAppear",
+            "printedName": "viewDidAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TrueLayerWebViewSDK@objc(cs)TLWebViewController(im)viewDidAppear:",
+            "mangledName": "$s19TrueLayerWebViewSDK05TLWebD10ControllerC13viewDidAppearyySbF",
+            "moduleName": "TrueLayerWebViewSDK",
+            "overriding": true,
+            "objc_name": "viewDidAppear:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TLWebViewController",
+                "printedName": "TrueLayerWebViewSDK.TLWebViewController",
+                "usr": "c:@M@TrueLayerWebViewSDK@objc(cs)TLWebViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TrueLayerWebViewSDK@objc(cs)TLWebViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s19TrueLayerWebViewSDK05TLWebD10ControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "TrueLayerWebViewSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFailProvisionalNavigation:withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@TrueLayerWebViewSDK@objc(cs)TLWebViewController(im)webView:didFailProvisionalNavigation:withError:",
+            "mangledName": "$s19TrueLayerWebViewSDK05TLWebD10ControllerC03webD0_28didFailProvisionalNavigation9withErrorySo05WKWebD0C_So12WKNavigationCSgs0N0_ptF",
+            "moduleName": "TrueLayerWebViewSDK",
+            "objc_name": "webView:didFailProvisionalNavigation:withError:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFail:withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@TrueLayerWebViewSDK@objc(cs)TLWebViewController(im)webView:didFailNavigation:withError:",
+            "mangledName": "$s19TrueLayerWebViewSDK05TLWebD10ControllerC03webD0_7didFail9withErrorySo05WKWebD0C_So12WKNavigationCSgs0L0_ptF",
+            "moduleName": "TrueLayerWebViewSDK",
+            "objc_name": "webView:didFailNavigation:withError:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFinish:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@TrueLayerWebViewSDK@objc(cs)TLWebViewController(im)webView:didFinishNavigation:",
+            "mangledName": "$s19TrueLayerWebViewSDK05TLWebD10ControllerC03webD0_9didFinishySo05WKWebD0C_So12WKNavigationCSgtF",
+            "moduleName": "TrueLayerWebViewSDK",
+            "objc_name": "webView:didFinishNavigation:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didStartProvisionalNavigation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@TrueLayerWebViewSDK@objc(cs)TLWebViewController(im)webView:didStartProvisionalNavigation:",
+            "mangledName": "$s19TrueLayerWebViewSDK05TLWebD10ControllerC03webD0_29didStartProvisionalNavigationySo05WKWebD0C_So12WKNavigationCSgtF",
+            "moduleName": "TrueLayerWebViewSDK",
+            "objc_name": "webView:didStartProvisionalNavigation:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@TrueLayerWebViewSDK@objc(cs)TLWebViewController",
+        "mangledName": "$s19TrueLayerWebViewSDK05TLWebD10ControllerC",
+        "moduleName": "TrueLayerWebViewSDK",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "Final",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrueLayerWebViewSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrueLayerWebViewSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "TrueLayerWebViewSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrueLayerWebViewSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "tlmessage",
+        "printedName": "tlmessage",
+        "declKind": "Import",
+        "moduleName": "TrueLayerWebViewSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "TrueLayerWebViewSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrueLayerWebViewSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "tlmessage",
+        "printedName": "tlmessage",
+        "declKind": "Import",
+        "moduleName": "TrueLayerWebViewSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrueLayerWebViewSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "tlmessage",
+        "printedName": "tlmessage",
+        "declKind": "Import",
+        "moduleName": "TrueLayerWebViewSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TrueLayerWebViewSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TrueLayerWebViewSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "TrueLayerWebViewSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrueLayerWebViewSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "View",
+        "printedName": "View",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "trueLayerPayment",
+            "printedName": "trueLayerPayment(isPresented:configuration:onResult:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Configuration",
+                "printedName": "TrueLayerWebViewSDK.Configuration",
+                "usr": "s:19TrueLayerWebViewSDK13ConfigurationV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrueLayerWebViewSDK.Result) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "TrueLayerWebViewSDK.Result",
+                    "usr": "s:19TrueLayerWebViewSDK6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP012TrueLayerWebC3SDKE04trueE7Payment11isPresented13configuration8onResultQrAA7BindingVySbG_AD13ConfigurationVyAD0N0OctF",
+            "mangledName": "$s7SwiftUI4ViewP012TrueLayerWebC3SDKE04trueE7Payment11isPresented13configuration8onResultQrAA7BindingVySbG_AD13ConfigurationVyAD0N0OctF",
+            "moduleName": "TrueLayerWebViewSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7SwiftUI4ViewP",
+        "mangledName": "$s7SwiftUI4ViewP",
+        "moduleName": "SwiftUICore",
+        "genericSig": "<τ_0_0.Body : SwiftUI.View>",
+        "sugared_genericSig": "<Self.Body : SwiftUI.View>",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "Preconcurrency",
+          "TypeEraser",
+          "TypeEraser",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "Custom"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/distiller\/project\/ios\/TrueLayerWebViewSDK\/Sources\/TrueLayerWebViewSDK\/API\/Configuration.swift",
+      "kind": "StringLiteral",
+      "offset": 1604,
+      "length": 18,
+      "value": "\"__native_wrapper\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/ios\/TrueLayerWebViewSDK\/Sources\/TrueLayerWebViewSDK\/API\/Configuration.swift",
+      "kind": "StringLiteral",
+      "offset": 1624,
+      "length": 41,
+      "value": "\"truelayer-ios\/\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/ios\/TrueLayerWebViewSDK\/Sources\/TrueLayerWebViewSDK\/API\/Configuration.swift",
+      "kind": "StringLiteral",
+      "offset": 1664,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/ios\/TrueLayerWebViewSDK\/Sources\/TrueLayerWebViewSDK\/API\/Configuration.swift",
+      "kind": "StringLiteral",
+      "offset": 1728,
+      "length": 26,
+      "value": "\"__enclosing_app_app_name\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/ios\/TrueLayerWebViewSDK\/Sources\/TrueLayerWebViewSDK\/API\/Configuration.swift",
+      "kind": "StringLiteral",
+      "offset": 1849,
+      "length": 30,
+      "value": "\"__enclosing_app_package_name\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/ios\/TrueLayerWebViewSDK\/Sources\/TrueLayerWebViewSDK\/API\/Configuration.swift",
+      "kind": "StringLiteral",
+      "offset": 1968,
+      "length": 25,
+      "value": "\"__enclosing_app_version\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/ios\/TrueLayerWebViewSDK\/Sources\/TrueLayerWebViewSDK\/API\/Configuration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2633,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/ios\/TrueLayerWebViewSDK\/Sources\/TrueLayerWebViewSDK\/API\/UIKit\/TLWebViewController.swift",
+      "kind": "Array",
+      "offset": 652,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/ios\/TrueLayerWebViewSDK\/Sources\/TrueLayerWebViewSDK\/API\/UIKit\/TLWebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 793,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/ios\/TrueLayerWebViewSDK\/Sources\/TrueLayerWebViewSDK\/API\/UIKit\/TLWebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 797,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/ios\/TrueLayerWebViewSDK\/Sources\/TrueLayerWebViewSDK\/API\/UIKit\/TLWebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 809,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/ios\/TrueLayerWebViewSDK\/Sources\/TrueLayerWebViewSDK\/API\/UIKit\/TLWebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 813,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/ios\/TrueLayerWebViewSDK\/Sources\/TrueLayerWebViewSDK\/API\/UIKit\/TLWebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 824,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/ios\/TrueLayerWebViewSDK\/Sources\/TrueLayerWebViewSDK\/API\/UIKit\/TLWebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 828,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/ios\/TrueLayerWebViewSDK\/Sources\/TrueLayerWebViewSDK\/API\/UIKit\/TLWebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 840,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/ios\/TrueLayerWebViewSDK\/Sources\/TrueLayerWebViewSDK\/API\/UIKit\/TLWebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1013,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/ios\/TrueLayerWebViewSDK\/Sources\/TrueLayerWebViewSDK\/API\/UIKit\/TLWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1073,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/ios\/TrueLayerWebViewSDK\/Sources\/TrueLayerWebViewSDK\/Core\/NativeBridgeMessageHandler.swift",
+      "kind": "FloatLiteral",
+      "offset": 1549,
+      "length": 4,
+      "value": "11.0"
+    }
+  ]
+}
